@@ -1,10 +1,12 @@
-import React from 'react'
-import Storage from './Components/Storage'
+import "./App.css";
+import Input from "./Components/Input";
 
-const App = () => {
+function App() {
   return (
-    <div><Storage/></div>
-  )
+    <>
+      <Input />
+    </>
+  );
 }
 
-export default App
+export default App;
